@@ -1,0 +1,6 @@
+.login-container {
+    background-image: url("https://source.unsplash.com/1920x1080/?background");
+    background-size: cover; /* Adjust to your preferred size */
+    background-repeat: no-repeat;
+    background-position: center;
+  }

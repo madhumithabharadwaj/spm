@@ -1,0 +1,51 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+    <h1 style="color: rgb(43, 84, 208);">GitHub Repository Search</h1>
+    <h3 style="color: rgb(86, 102, 182);">Enter a Github repository name for analysis</h3>
+<body >
+    
+    <div>
+        <form action="redirect.html" method="get">
+        <input type="text" id="repositoryName" name="repositoryName" placeholder="Enter a GitHub repository name" style="height: 25px; width: 200px;">
+        <button onclick="searchRepository()" style="color: rgb(230, 232, 232); background-color: blue;">Search</button>
+        
+    </form>
+    </div>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <h1 style="color: rgb(43, 84, 208);">GitHub Repository Search</h1>
+    <h3 style="color: rgb(86, 102, 182);">Enter a Github repository name for analysis</h3>
+
+    <div>
+        <!--<form action="/redirect" method="post">
+            <input type="text" id="repo_owner" name="repo_owner" placeholder="Enter GitHub repo owner">
+            <input type="text" id="repo_name" name="repo_name" placeholder="Enter GitHub repo name">
+            <button style="color: rgb(230, 232, 232); background-color: blue;">Search</button>
+        </form>-->
+        <form action="/redirect" method="post">
+            <input type="text" id="repo_owner" name="repo_owner" placeholder="Enter a GitHub repository owner">
+            <input type="text" id="repo_name" name="repo_name" placeholder="Enter the repository name">
+            <input type="text" id="start_date" name="start_date" placeholder="Enter start date">
+            <input type="text" id="end_date" name="end_date" placeholder="Enter end date">
+            <button style="color: rgb(230, 232, 232); background-color: blue;">Search</button>
+        </form>
+        
+    </div>
+</body>
+</html>

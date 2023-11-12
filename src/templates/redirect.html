@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+<body>
+
+<!-- Display Average Resolution Time -->
+<p>Average Resolution Time: {{ avg_resolution_time }} seconds</p>
+
+<!-- Display Contributor Activity graph -->
+<img src="data:image/png;base64, {{ image_base64_contributor }}" alt="Contributor Activity">
+
+<!-- Display Pull Request Trends graph -->
+<img src="data:image/png;base64, {{ image_base64_pull_request }}" alt="Pull Request Trends">
+
+<!-- Display Commit Frequency graph -->
+<img src="data:image/png;base64, {{ image_base64_commit_frequency }}" alt="Commit Frequency">
+
+</body>
+</html>
