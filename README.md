@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### we have to add client ID in Login.js line22
+### we have to change personal access token in app.py line19
+
 ### `npm install`
 To install node modules package
 
